@@ -1,0 +1,24 @@
+body {
+    background-color: #eeeeff;
+}
+
+div#frame {
+    margin: 0 auto;
+    width: 400px;
+}
+
+header {
+    padding: 0px 30px;
+}
+
+header h1 {
+    font-size: 0.8em;
+}
+
+article {
+    padding: 10px 30px;
+    background-color: #ffffff;
+    height: 300px;
+    border: solid 1px gray;
+    border-radius: 20px;
+}

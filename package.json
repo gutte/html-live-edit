@@ -1,0 +1,24 @@
+{
+  "name": "htmle",
+  "version": "0.0.1",
+  "description": "html5 live edit client and server utilizing websockets",
+  "keywords": [
+    "html",
+    "html5",
+    "websocket"
+  ],
+  "author": {
+    "name": "Gustav Klingstedt",
+    "email": "gutte@nettisetti.com"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    
+  },
+  "main": "index.js",
+  "bin": "server.js",
+  "license": "MIT"
+}
