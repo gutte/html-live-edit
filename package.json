@@ -1,24 +1,20 @@
 {
-  "name": "htmle",
+  "name": "HTMLE",
   "version": "0.0.1",
-  "description": "html5 live edit client and server utilizing websockets",
-  "keywords": [
-    "html",
-    "html5",
-    "websocket"
-  ],
-  "author": {
-    "name": "Gustav Klingstedt",
-    "email": "gutte@nettisetti.com"
-  },
+  "description": "HTML Live Editor",
+  "main": "server.js",
   "dependencies": {
+    "nodejs-websocket": "^1.2.1"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
-    
+    "type": "git",
+    "url": "https://klingstedt@bitbucket.org/klingstedt/html-live-edit.git"
   },
-  "main": "index.js",
-  "bin": "server.js",
+  "author": "Gustav Klingstedt",
   "license": "MIT"
 }
