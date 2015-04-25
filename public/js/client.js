@@ -44,7 +44,8 @@ $(document).ready(function($) {
     });
     
     
-    socket = new WebSocket("ws://127.0.0.1:8081");
+
+    socket = new WebSocket("ws://localhost:8081");
     
     socket.onopen = function() {
         console.log("Connection opened");
