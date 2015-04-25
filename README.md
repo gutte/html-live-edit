@@ -1,6 +1,6 @@
 #HTML Live Editor
 
-Live Editor for simple HTML documents.
+Live Editor for simple HTML5 documents.
 
 Article contents are changed through clicking and editing (using contentEditable property).
 Editable elements must be of class "editable" and inside article#main.
