@@ -3,7 +3,7 @@ var ws = require("nodejs-websocket")
 var fs = require("fs")
 
 http.createServer(function (req, res) {
-	fs.createReadStream("index.html").pipe(res)
+	fs.createReadStream("public/index.html").pipe(res)
 }).listen(8080);
 
 var server = ws.createServer(function (connection) {
